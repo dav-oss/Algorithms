@@ -1,2 +1,4 @@
-# Algorithms
-reimagined-journey
+# DS And Algorithms
+## Arrays
+
+## Linked List 
