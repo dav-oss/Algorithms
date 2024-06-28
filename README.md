@@ -36,3 +36,12 @@ Hash tables provide average-case constant-time complexity O(1) for lookups, inse
 Keys must be unique within the hash table to ensure correct retrieval of values.
 Hash functions should ideally distribute keys uniformly across the hash table to minimize collisions and ensure efficient performance.
 The size of the hash table (number of buckets) and the load factor (ratio of number of elements to number of buckets) affect performance and should be managed to avoid excessive collisions.
+
+# Heap Data Structure
+Heap data structure is a complete binary tree that satisfies the heap property, where any given node is
+
+- always greater than its child node/s and the key of the root node is the largest among all other nodes. This property is also called *** max heap property ***.
+- always smaller than the child node/s and the key of the root node is the smallest among all other nodes. This property is also called *** min heap property ***.
+
+## Heapify
+Heapify is the process of creating a heap data structure from a binary tree. It is used to create a Min-Heap or a Max-Heap.
