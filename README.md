@@ -69,6 +69,7 @@ In a fibonacci heap, a node can have more than two children or no children at al
 The fibonacci heap is called a fibonacci heap because the trees are constructed in a way such that a tree of order n has at least Fn+2 nodes in it, where Fn+2 is the (n + 2)th Fibonacci number.
 
 ## B-tree
+
 B-tree is a special type of self-balancing search tree in which each node can contain more than one key and can have more than two children. It is a generalized form of the binary search tree.
 
 It is also known as a height-balanced m-way tree.
