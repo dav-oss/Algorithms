@@ -73,3 +73,7 @@ The fibonacci heap is called a fibonacci heap because the trees are constructed 
 B-tree is a special type of self-balancing search tree in which each node can contain more than one key and can have more than two children. It is a generalized form of the binary search tree.
 
 It is also known as a height-balanced m-way tree.
+
+### Insertion into a B-tree
+
+Inserting an element on a B-tree consists of two events: searching the appropriate node to insert the element and splitting the node if required.Insertion operation always takes place in the bottom-up approach.
