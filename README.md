@@ -77,3 +77,9 @@ It is also known as a height-balanced m-way tree.
 ### Insertion into a B-tree
 
 Inserting an element on a B-tree consists of two events: searching the appropriate node to insert the element and splitting the node if required.Insertion operation always takes place in the bottom-up approach.
+
+### Deletion from a B-tree
+
+Deleting an element on a B-tree consists of three main events: searching the node where the key to be deleted exists, deleting the key and balancing the tree if required.
+
+While deleting a tree, a condition called underflow may occur. Underflow occurs when a node contains less than the minimum number of keys it should hold.
