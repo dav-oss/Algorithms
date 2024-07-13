@@ -16,6 +16,7 @@ bubbleSort(array)
       swap leftElement and rightElement
 end bubbleSort
 ```
+
 ## Selection Sort
 
 Selection sort is a sorting algorithm that selects the smallest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list.
@@ -30,6 +31,7 @@ selectionSort(array, size)
   swap minimum with first unsorted position
 end selectionSort
 ```
+
 ## Insertion Sort Algorithm
 
 Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration.
@@ -105,3 +107,22 @@ Quicksort is a sorting algorithm based on the divide and conquer approach where
 - While dividing the array, the pivot element should be positioned in such a way that elements less than pivot are kept on the left side and elements greater than pivot are on the right side of the pivot.
 - The left and right subarrays are also divided using the same approach. This process continues until each subarray contains a single element.
 - At this point, elements are already sorted. Finally, elements are combined to form a sorted array.
+ **Algorithm**
+
+ ```
+ quickSort(array, leftmostIndex, rightmostIndex)
+  if (leftmostIndex < rightmostIndex)
+    pivotIndex <- partition(array,leftmostIndex, rightmostIndex)
+    quickSort(array, leftmostIndex, pivotIndex - 1)
+    quickSort(array, pivotIndex, rightmostIndex)
+
+partition(array, leftmostIndex, rightmostIndex)
+  set rightmostIndex as pivotIndex
+  storeIndex <- leftmostIndex - 1
+  for i <- leftmostIndex + 1 to rightmostIndex
+  if element[i] < pivotElement
+    swap element[i] and element[storeIndex]
+    storeIndex++
+  swap pivotElement and element[storeIndex+1]
+return storeIndex + 1
+```
