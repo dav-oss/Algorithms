@@ -58,6 +58,7 @@ Merge Sort is one of the most popular sorting algorithms that is based on the pr
 Here, a problem is divided into multiple sub-problems. Each sub-problem is solved individually. Finally, sub-problems are combined to form the final solution.
 
 ### Divide and Conquer Strategy
+
 Using the Divide and Conquer technique, we divide a problem into subproblems. When the solution to each subproblem is ready, we 'combine' the results from the subproblems to solve the main problem.
 
 Suppose we had to sort an array A. A subproblem would be to sort a sub-section of this array starting at index p and ending at index r, denoted as A[p..r].
@@ -94,3 +95,13 @@ Have we reached the end of any of the arrays?
     Yes:
         Copy all remaining elements of non-empty array
 ```
+
+## Quicksort Algorithm
+
+Quicksort is a sorting algorithm based on the divide and conquer approach where
+
+- An array is divided into subarrays by selecting a pivot element (element selected from the array).
+
+- While dividing the array, the pivot element should be positioned in such a way that elements less than pivot are kept on the left side and elements greater than pivot are on the right side of the pivot.
+- The left and right subarrays are also divided using the same approach. This process continues until each subarray contains a single element.
+- At this point, elements are already sorted. Finally, elements are combined to form a sorted array.
