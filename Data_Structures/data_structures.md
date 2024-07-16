@@ -86,3 +86,6 @@ While deleting a tree, a condition called underflow may occur. Underflow occurs 
 
 A tree is a nonlinear hierarchical data structure that consists of nodes connected by edges.
 
+![image](https://github.com/user-attachments/assets/120d1aa8-4556-4649-914a-e11e1ef6f57b)
+
+
