@@ -212,3 +212,12 @@ After going through all the elements, we get the inorder traversal as
 ```sh
 5 -> 12 -> 6 -> 1 -> 9
 ```
+
+## Binary Tree
+
+A binary tree is a tree data structure in which each parent node can have at most two children. Each node of a binary tree consists of three items:
+
+- data item
+- address of left child
+- address of right child
+
